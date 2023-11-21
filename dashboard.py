@@ -88,7 +88,7 @@ df.sort_values(by = 'dteday',inplace=True)
 min_date = df['dteday'].min()
 max_date = df['dteday'].max()
 
-st.header("🚴 Bicycle Rent Dashboard 🚴")
+st.header("🚴 Bike Rental Dashboard 🚴")
 st.write(
     """
         Bike sharing systems are new generation of traditional bike rentals where whole process from membership, rental and return 
